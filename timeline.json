@@ -1,79 +1,475 @@
-Woche 0 - Anfang – (ab 22.09.2025)
-Tag 1 (21.09.2025)
-[IN] <<NEU>> Deutlich ausgeprägte Heiserkeit (Dauer ca. 1 Tag)
-Tag 2 (22.09.2025) * [AL] (/// Abholung von der Schule erforderlich ///)
-[SU] +++ Übelkeit (positionsabhängig verstärkt)
-[IN] <<NEU>> Leichte Halsschmerzen
-[AL] /// Dauerhaft bettlägerig ///
-Tag 3 (23.09.2025)
-[SU] <<NEU>> Beginn eines leichten, kontinuierlichen Schwankschwindels
-[SU] Übelkeit mit [GI] Würgereizen (kein Erbrechen)
-[IN] <<NEU>> Leichte Halsschmerzen
-Tag 4 (24.09.2025)
-[SU] +++ Anhaltender Schwankschwindel und Übelkeit (positionsabhängig verstärkt - Sitzen/Stehen)
-[GI] <<NEU>> Aufstoßen (Serien von 3 bis 5, getriggert durch Vertikalität)
-Tag 5 (26.09.2025)
-[MED] HNO-ärztliche Untersuchung (Ohren und Hals unauffällig)
-[BO] Fortbestehen der bisherigen Symptome
-⸻
-Woche 1 (Ende September)
-[SU] Kontinuierlicher invalidisierender Schwankschwindel und Übelkeit (positionsabhängige Verstärkung)
-[GI] Aufstoßenserien (3 bis 5, getriggert durch Positionswechsel - Sitzen/Stehen)
-[GI] Gelegentliche Würgereize (kein Erbrechen)
-[BO] Im Liegen deutliche Reduktion der Symptomintensität
-[BO] /// Kurzzeitige Tätigkeiten im Stehen waren trotz erheblicher Beschwerden möglich (z. B. einige Ballwechsel Tischtennis) ///
-[BO] /// Beim Essen muss er immer wieder Pausen machen und legt dabei den Kopf auf den Tisch ///
-⸻
-Woche 2–4 (Mitte bis Ende Oktober)
-[BO] +++ Langsame, aber kontinuierliche Zunahme der Symptomintensität
-[GI] Aufstoßenserien bleiben mit Vertikalität konstant verknüpft
-[GI] <<NEU>> Einige Tage starker Schluckauf mit langen, intensiven Phasen.
-[BO] +++ /// Kurzzeitige Tätigkeiten im Stehen wurden zunehmend schwieriger wegen der Symptome ///
-[BO] +++ /// Pausen beim Essen sind öfter nötig ///
-⸻
-Woche 4 – Charité-Hospitalisierung
-[MED] /// Lumbalpunktion /// (Schmerztabletten)
-⸻
-Woche 5
-[BO] Deutliche Symptomverschlechterung
-[SU] +++ Übelkeit nun dauerhaft, auch in horizontaler Lage, stark ausgeprägt
-[BO] +++ Weitere Abnahme der Stand- und Geh-Toleranz
-[GI] +++ Aufstoßen nun ganztägig und kontinuierlich, nicht mehr nur positionsabhängig
-[BO] (Nahezu vollständige Sistierung des Aufstoßens im Schlaf)
-[GI] +++ Häufige Würgereize
-[GI] +++ Aufstoßen mit hoher Frequenz (über 10-mal pro Minute)
-[AL] +++ /// Sitzen am Tisch zum Essen nicht mehr möglich ///
-⸻
-Woche 6 (Anfang November)
-[BO] Persistenz der Symptome auf hohem Niveau
-⸻
-Woche 7 (Mitte November)
-[GI] +++ Aufstoßen mit hoher Frequenz (über 10-mal pro Minute)
-[BO] <<NEU>> Modulation des Aufstoßens durch Aufmerksamkeit und Ablenkung
-[OM] <<NEU>> Auftreten sakkadenartiger Augenbewegungen (kein Nystagmus)
-[BO] /// Toilettengänge sind mit starkem körperlichem Leiden verbunden aufgrund der Intensität der Symptome ///
-[BO] /// Die einfachsten vestibulären Rehabilitationsübungen (VOR x1) werden nicht toleriert ///
-[MED] /// Prof. Dr. Lempert → Flunarizin 5 mg/Tag ///
-⸻
-Woche 8 (Ende November)
-[BO] Fortbestehen der bisherigen Symptome
-[GI] <<NEU>> Regurgitationen (anfangs neutral, später auch sauer)
-[OM] +++ Sakkadenartige Augenbewegungen werden länger und intensiver
-[GI] +++ Regurgitationen mehrfach täglich, zunehmend häufig (Zusammenhang mit Aufstoßen und Würgereiz)
-⸻
-Woche 9–11 (Ende November – Anfang Dezember)
-[BO] Keine klinisch relevante Besserung der Symptomatik
-[SU] Persistenz von Schwankschwindel, Übelkeit, [GI] Aufstoßen und Regurgitationen
-[OM] +++ Augenbewegungen werden länger und intensiver (begleitet von raschem, wiederholtem Blinzeln)
-⸻
-Woche 12 (Dezember) – Helios Klinikum
-[MED] /// Tiaprid 150 mg/Tag ///
-⸻
-Woche 13–14 (Ende November – Anfang Dezember)
-[BO] Keine klinisch relevante Besserung der Symptomatik
-[SU] Persistenz von Schwankschwindel, Übelkeit, [GI] Aufstoßen, Regurgitationen und [OM] Augenbewegungen
-[BO] /// Sehr geringe Toleranz für aufrechte Position trotz Motivation, Interesse und Bemühung ///
-⸻
-Woche 15 (Anfang Januar – aktuell)
-[BO] Keine klinisch relevante Besserung der Symptomatik
-[GI] <<NEU>> Explosive Aufstoßer, zwar seltener als in den Vorwochen, aber ganztägig konstant vorhanden
+{
+  "title": {
+    "text": {
+      "headline": "SYMPTOMVERLAUF KORPUS",
+      "text": "Episode 4 - Detaillierter Wochenverlauf ab 22.09.2025"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "21"
+      },
+      "text": {
+        "headline": "Deutlich ausgeprägte Heiserkeit",
+        "text": "Dauer ca. 1 Tag"
+      },
+      "background": {
+        "color": "#95A5A6"
+      },
+      "group": "Woche 0"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Beginn Episode 4",
+        "text": "Übelkeit (positionsabhängig verstärkt). Abholung von der Schule erforderlich. Dauerhaft bettlägerig. Leichte Halsschmerzen."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 0"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "23"
+      },
+      "text": {
+        "headline": "Beginn Schwankschwindel",
+        "text": "Beginn eines leichten, kontinuierlichen Schwankschwindels. Übelkeit mit Würgereizen (kein Erbrechen). Leichte Halsschmerzen."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 0"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Anhaltender Schwankschwindel",
+        "text": "Anhaltender Schwankschwindel und Übelkeit (positionsabhängig verstärkt - Sitzen/Stehen). Aufstoßen NEU: Serien von 3 bis 5, getriggert durch Vertikalität."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 0"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Aufstoßen beginnt",
+        "text": "Serien von 3 bis 5 Aufstoßern, getriggert durch Vertikalität"
+      },
+      "background": {
+        "color": "#E67E22"
+      },
+      "group": "Woche 0"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "26"
+      },
+      "text": {
+        "headline": "HNO-Untersuchung",
+        "text": "Ohren und Hals unauffällig. Fortbestehen der bisherigen Symptome."
+      },
+      "background": {
+        "color": "#95A5A6"
+      },
+      "group": "Woche 0"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "27"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "3"
+      },
+      "text": {
+        "headline": "Woche 1 - Ende September",
+        "text": "Kontinuierlicher invalidisierender Schwankschwindel und Übelkeit (positionsabhängige Verstärkung). Im Liegen deutliche Reduktion der Symptomintensität. Kurzzeitige Tätigkeiten im Stehen waren möglich (z.B. einige Ballwechsel Tischtennis). Beim Essen Pausen mit Kopf auf Tisch nötig."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 1"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "27"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "3"
+      },
+      "text": {
+        "headline": "Aufstoßen Woche 1",
+        "text": "Aufstoßenserien (3 bis 5) bleiben mit Vertikalität verknüpft. Gelegentliche Würgereize (kein Erbrechen)."
+      },
+      "background": {
+        "color": "#E67E22"
+      },
+      "group": "Woche 1"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "4"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "25"
+      },
+      "text": {
+        "headline": "Woche 2-4: Zunahme der Intensität",
+        "text": "Langsame, aber kontinuierliche Zunahme der Symptomintensität. Aufstoßenserien bleiben mit Vertikalität konstant verknüpft. Kurzzeitige Tätigkeiten im Stehen wurden zunehmend schwieriger. Pausen beim Essen öfter nötig."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 2-4"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "15"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "17"
+      },
+      "text": {
+        "headline": "Starker Schluckauf",
+        "text": "Einige Tage starker Schluckauf mit langen, intensiven Phasen"
+      },
+      "background": {
+        "color": "#27AE60"
+      },
+      "group": "Woche 2-4"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "20"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "26"
+      },
+      "text": {
+        "headline": "Charité Hospitalisierung",
+        "text": "Lumbalpunktion. Schmerztabletten."
+      },
+      "background": {
+        "color": "#95A5A6"
+      },
+      "group": "Woche 4"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "27"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "2"
+      },
+      "text": {
+        "headline": "Woche 5: DEUTLICHE VERSCHLECHTERUNG",
+        "text": "Übelkeit nun dauerhaft, auch in horizontaler Lage, stark ausgeprägt. Weitere Abnahme der Stand- und Geh-Toleranz. Aufstoßen nun ganztägig und kontinuierlich, nicht mehr nur positionsabhängig. Sitzen am Tisch zum Essen nicht mehr möglich."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 5"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "27"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "2"
+      },
+      "text": {
+        "headline": "Aufstoßen ganztägig",
+        "text": "Aufstoßen mit hoher Frequenz (über 10-mal pro Minute). Ganztägig kontinuierlich. Im Schlaf nahezu vollständig sistierend. Häufige Würgereize."
+      },
+      "background": {
+        "color": "#E67E22"
+      },
+      "group": "Woche 5"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "3"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "9"
+      },
+      "text": {
+        "headline": "Woche 6",
+        "text": "Persistenz der Symptome auf hohem Niveau"
+      },
+      "background": {
+        "color": "#95A5A6"
+      },
+      "group": "Woche 6"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "10"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "16"
+      },
+      "text": {
+        "headline": "Woche 7: Neue Symptome",
+        "text": "Aufstoßen mit hoher Frequenz (über 10/min). Modulation durch Aufmerksamkeit und Ablenkung. Sakkadenartige Augenbewegungen NEU (kein Nystagmus). Toilettengänge mit starkem körperlichem Leiden. VOR x1 Übungen nicht toleriert."
+      },
+      "background": {
+        "color": "#E67E22"
+      },
+      "group": "Woche 7"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "10"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "16"
+      },
+      "text": {
+        "headline": "Okulomotorische Auffälligkeiten NEU",
+        "text": "Sakkadenartige Augenbewegungen (kein Nystagmus)"
+      },
+      "background": {
+        "color": "#9B59B6"
+      },
+      "group": "Woche 7"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "10"
+      },
+      "text": {
+        "headline": "Prof. Dr. Lempert Konsultation",
+        "text": "Flunarizin 5 mg/Tag verschrieben"
+      },
+      "background": {
+        "color": "#95A5A6"
+      },
+      "group": "Woche 7"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "17"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "23"
+      },
+      "text": {
+        "headline": "Woche 8: Regurgitationen beginnen",
+        "text": "Regurgitationen NEU (anfangs neutral, später auch sauer). Mehrfach täglich, zunehmend häufig. Zusammenhang mit Aufstoßen und Würgereiz. Sakkadenartige Augenbewegungen werden länger und intensiver."
+      },
+      "background": {
+        "color": "#3498DB"
+      },
+      "group": "Woche 8"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "17"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "23"
+      },
+      "text": {
+        "headline": "Augenbewegungen intensivieren",
+        "text": "Sakkadenartige Augenbewegungen werden länger und intensiver"
+      },
+      "background": {
+        "color": "#9B59B6"
+      },
+      "group": "Woche 8"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "24"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "12",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Woche 9-11: Keine Besserung",
+        "text": "Keine klinisch relevante Besserung der Symptomatik. Persistenz von Schwankschwindel, Übelkeit, Aufstoßen und Regurgitationen. Augenbewegungen werden länger und intensiver, begleitet von raschem, wiederholtem Blinzeln."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 9-11"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "24"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "12",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Regurgitationen persistieren",
+        "text": "Mehrfach täglich, im Zusammenhang mit Aufstoßen und Würgereiz"
+      },
+      "background": {
+        "color": "#3498DB"
+      },
+      "group": "Woche 9-11"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "24"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "12",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Augenbewegungen + Blinzeln",
+        "text": "Augenbewegungen länger und intensiver, begleitet von raschem, wiederholtem Blinzeln"
+      },
+      "background": {
+        "color": "#9B59B6"
+      },
+      "group": "Woche 9-11"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "12",
+        "day": "16"
+      },
+      "end_date": {
+        "year": "2025",
+        "month": "12",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Woche 12: Helios Klinikum",
+        "text": "Hospitalisierung. Tiaprid 150 mg/Tag verschrieben."
+      },
+      "background": {
+        "color": "#95A5A6"
+      },
+      "group": "Woche 12"
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "12",
+        "day": "21"
+      },
+      "end_date": {
+        "year": "2026",
+        "month": "1",
+        "day": "4"
+      },
+      "text": {
+        "headline": "Woche 13-14: Persistenz",
+        "text": "Keine klinisch relevante Besserung der Symptomatik. Persistenz von Schwankschwindel, Übelkeit, Aufstoßen, Regurgitationen und Augenbewegungen. Sehr geringe Toleranz für aufrechte Position trotz Motivation, Interesse und Bemühung."
+      },
+      "background": {
+        "color": "#E74C3C"
+      },
+      "group": "Woche 13-14"
+    },
+    {
+      "start_date": {
+        "year": "2026",
+        "month": "1",
+        "day": "5"
+      },
+      "end_date": {
+        "year": "2026",
+        "month": "1",
+        "day": "12"
+      },
+      "text": {
+        "headline": "Woche 15: Aktuell",
+        "text": "Keine klinisch relevante Besserung. Explosive Aufstoßer NEU (seltener als Vorwochen, aber ganztägig konstant). Kein Fieber, kein Durchfall. Gewicht stabil."
+      },
+      "background": {
+        "color": "#E67E22"
+      },
+      "group": "Woche 15"
+    }
+  ]
+}
